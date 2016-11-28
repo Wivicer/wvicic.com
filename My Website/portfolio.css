@@ -1,0 +1,189 @@
+@import 'https://fonts.googleapis.com/css?family=Permanent+Marker';
+body
+{
+	background-color:#cecece;
+	background-image:url(images/fadedbar.png);
+	background-repeat: repeat-x
+}
+h1
+{
+    background-color:red;
+	color:black;
+	text-align:center;
+	border-radius:1em;
+	font-family: 'Permanent Marker';
+}
+nav
+{
+	background-color:cyan;
+	text-align:center;
+	border-radius:1em;
+	
+}
+nav ul
+{
+	list-style-type:none;
+}
+nav li
+{
+	display:inline-block;
+	
+}
+nav a,span
+{
+	text-decoration:none;
+	margin:0 20px 0 20px;
+}
+nav a:link
+{
+	color:#003333;
+}
+nav a:visited
+{
+	color:#344873;
+}
+nav a:hover
+{
+	color:#afffff;
+}
+nav a:active
+{
+	color:#000000;
+}
+.name
+{
+	font-weight:600;
+}
+#soundcloud
+{
+	float:left;
+	font-size:1em; 
+	color:navy; 
+	padding: 20px;
+}
+footer
+{
+	font-size:small;
+	text-align:center;
+}
+
+footer
+{
+	padding: 20px
+	
+}
+#float-note
+{
+	float:right;
+	
+}
+#about-me
+{
+	margin:0 100px 10px 100px;
+}
+#desktop
+	{
+		display:inline;
+	}
+#mobile
+{
+	display:none;
+}
+#nav-current
+{
+	color:red;
+}
+@media only screen and (max-width:1024px)
+{
+	body
+	{
+		margin: 0;
+		padding: 0;
+		background-image: none;
+	}
+	#wrapper
+	{
+		width: auto;
+		min-width: 0;
+		margin:0;
+		box-shadow: none;
+	}
+	h1
+	{
+		margin: 0;
+	}
+	nav
+	{
+		float:none;
+		width:auto;
+		padding: 0.5em;
+	}
+	nav li
+	{
+		display:inline-block;
+	}
+	nav a
+	{
+		padding: 1em;
+	}
+	main
+	{
+		padding: 1em;
+		margin-left:0;
+		font-size:90%;
+	}
+	footer
+	{
+		margin: 0;
+	}
+}
+@media only screen and (max-width:768px)
+{
+	#desktop
+	{
+		display:none;
+	}
+	#mobile
+	{
+		display:inline;
+	}
+	h1
+	{
+		height:100%;
+		font-size: 1.5em;
+		padding-left:0.3em;
+	}
+	nav
+	{
+		padding: 0;
+	}
+	nav li
+	{
+		display:block;
+		margin:0;
+		padding:0;
+	}
+	nav ul
+	{
+		margin:0;
+		padding:0;
+	}
+	nav a,nav span
+	{
+		display: block;
+		padding:0.2em;
+		font-size:1.3em;
+		border:2px solid #330000;
+	}
+	main
+	{
+		padding-top:0.1em;
+		padding-right:0.6em;
+		padding-bottom:0.1em;
+		padding-left:0.4em;
+	}
+	footer
+	{
+		padding:0;
+	}
+}
